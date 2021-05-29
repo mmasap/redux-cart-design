@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>React App</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <header class="header">
+        <h1 onclick="location.href='/'">ReduxCart</h1>
+        <nav>
+          <ul>
+            <li>
+              <button class="button" onclick="location.href='/cart.html'">
+                <span>My Cart</span>
+                <span class="badge">2</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="products">
+        <h2>Buy your favorite products</h2>
+        <ul>
+          <li class="item">
+            <section class="card">
+              <header>
+                <h3>My First Book</h3>
+                <div class="price">$6.00</div>
+              </header>
+              <p>The first book I ever wrote</p>
+              <div class="actions">
+                <button>Add to Cart</button>
+              </div>
+            </section>
+          </li>
+          <li class="item">
+            <section class="card">
+              <header>
+                <h3>My Second Book</h3>
+                <div class="price">$5.00</div>
+              </header>
+              <p>The Second book I ever wrote</p>
+              <div class="actions">
+                <button>Add to Cart</button>
+              </div>
+            </section>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
